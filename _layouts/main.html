@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }} | CMCLab@SKU</title>
+
+    <!-- IMPORT CSS/JS IMPORT -->
+    {% include head.html %}
+    <!-- IMPORT CSS/JS IMPORT: END -->
+
+  </head>
+  <body>
+
+    <!-- NAVIGATION BAR -->
+    {% include navbar.html %}
+    <!-- NAVIGATION BAR: END -->
+
+    <!-- CONTENTS CONTAINER -->
+    {{ content }}
+    <!-- CONTENTS CONTAINER: END -->
+
+    <!-- FOOTER -->
+    {% include footer.html %}
+    <!-- FOOTER: END -->
+
+  </body>
+</html>

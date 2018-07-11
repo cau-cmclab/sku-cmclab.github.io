@@ -1,0 +1,159 @@
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* BASIC ELEMENTS */
+@media (max-width: 767px) {
+  /* works on @xs; small display(mobile) */
+  body {
+    padding-top: 75px;
+  }
+}
+@media (min-width: 768px) {
+  /* works on general display(desktop) */
+  body {
+    /* padding-top is 75 + div#cmc-nav_banner.height */
+    padding-top: 195px;
+  }
+}
+
+
+/* CMCLab Homepage Sections */
+div#cmc-nav-banner {
+  /* hidden @xs */
+  height: 120px;
+  /*background-color: red;*/
+}
+
+@media (max-width: 767px) {
+  /* works on @xs; small display(mobile) */
+  div.cmc-section {
+    padding: 12px;
+    text-align: center;
+    background-color: #fafafa;
+  }
+  ul.cmc-paperlist li {
+    font-size: 1em;
+    padding: 4px;
+  }
+  h1.cmc-container-header {
+    font-size: 2.4em;
+  }
+  p.cmc-container-para {
+    font-size: 1.2em;
+  }
+  img.cmc-section-img {
+    padding: 8px;
+    width: 100%;
+    max-width: 240px;
+  }
+
+  div.cmc-section hr {
+    margin-top: 12px;
+    margin-bottom: 18px;
+    border-color: #c0c0c0;
+    border-style: dashed;
+    width: 50%;
+  }
+  hr.cmc-separate {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-color: #c0c0c0;
+    border-style: dashed;
+    width: 75%;
+  }
+}
+@media (min-width: 768px) {
+  /* works on general display(desktop) */
+  div.cmc-section {
+    padding: 72px;
+    text-align: center;
+    background-color: #fafafa;
+  }
+  ul.cmc-paperlist li {
+    font-size: 1.2em;
+    padding: 8px;
+  }
+  h1.cmc-container-header {
+    font-size: 4em;
+  }
+  p.cmc-container-para {
+    font-size: 1.5em;
+  }
+  img.cmc-section-img {
+    padding: 12px;
+    width: 100%;
+    max-width: 240px;
+  }
+
+  div.cmc-section hr {
+    margin-top: 24px;
+    margin-bottom: 36px;
+    border-color: #c0c0c0;
+    border-style: dashed;
+    width: 25%;
+  }
+  hr.cmc-separate {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border-color: #c0c0c0;
+    border-style: dashed;
+    width: 75%;
+  }
+}
+
+/* people.html ONLY */
+@media (max-width: 767px) {
+  /* works on @xs; small display(mobile) */
+  div.cmc-people-advisor-profile {
+    padding: 0px;
+  }
+  div.cmc-people-advisor-profile>ul li {
+    font-size: 1em;
+    padding: 4px;
+  }
+}
+@media (min-width: 768px) {
+  /* works on general display(desktop) */
+  div.cmc-people-advisor-profile {
+    padding: 24px;
+  }
+  div.cmc-people-advisor-profile>ul li {
+    font-size: 1.2em;
+    padding: 8px;
+  }
+}
+img.cmc-people-section-img {
+  /* for professor */
+  padding: 24px;
+  width: 100%;
+  max-width: 275px;
+}
+img.cmc-people-section-img-else {
+  /* for students including alumni */
+  padding: 24px;
+  width: 100%;
+  max-width: 240px;
+}
+
+/* Footer */
+@media (max-width: 767px) {
+  /* works on @xs; small display(mobile) */
+  footer {
+    background-color: #fbfbfb;
+    box-shadow: #cecece 0px 0px 8px;
+    border-top: 1px #e7e7e7 solid;
+    padding: 8px;
+    margin-top: 22px;
+  }
+}
+@media (min-width: 768px) {
+  /* works on general display(desktop) */
+  footer {
+    background-color: #fbfbfb;
+    box-shadow: #cecece 0px 0px 8px;
+    border-top: 1px #e7e7e7 solid;
+    padding: 36px;
+    margin-top: 22px;
+  }
+}
