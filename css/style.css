@@ -42,10 +42,19 @@ div#cmc-nav-banner {
   p.cmc-container-para {
     font-size: 1.2em;
   }
+
+  p.cmc-container-project-para {
+    font-size: 1.0em;
+  }
+
   img.cmc-section-img {
     padding: 8px;
     width: 100%;
     max-width: 240px;
+  }
+
+  img.cmc-project-img {
+    padding-bottom: 8px;
   }
 
   div.cmc-section hr {
@@ -80,10 +89,17 @@ div#cmc-nav-banner {
   p.cmc-container-para {
     font-size: 1.5em;
   }
+  p.cmc-container-project-para {
+    font-size: 1.2em;
+  }
   img.cmc-section-img {
     padding: 12px;
     width: 100%;
     max-width: 240px;
+  }
+
+  img.cmc-project-img {
+    padding-bottom: 12px;
   }
 
   div.cmc-section hr {
