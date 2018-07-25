@@ -128,17 +128,67 @@ div#cmc-nav-banner {
     font-size: 1em;
     padding: 4px;
   }
+
 }
 @media (min-width: 768px) {
   /* works on general display(desktop) */
   div.cmc-people-advisor-profile {
-    padding: 24px;
+    padding: 24px; 
+    text-align: left;
   }
   div.cmc-people-advisor-profile>ul li {
     font-size: 1.2em;
     padding: 8px;
   }
 }
+
+
+/* professor.html ONLY */
+@media (max-width: 767px) {
+  /* works on @xs; small display(mobile) */
+  div.cmc-professor-education {
+    padding: 0px;
+    text-align: left;
+  }
+  div.cmc-professor-education>ul li {
+    font-size: 1em;
+    padding: 4px;
+  }
+
+  div.cmc-professor-education>table tr td{
+    font-size: 1em;
+    padding: 4px;
+  }
+  div.cmc-professor-education>table tr th{
+    font-size: 1em;
+    padding: 4px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  /* works on general display(desktop) */
+  div.cmc-professor-education {
+    padding: 24px; 
+    text-align: left;
+  }
+  div.cmc-professor-education>ul li {
+    font-size: 1.2em;
+    padding: 8px;
+  }
+  
+  div.cmc-professor-education>table tr td{
+    font-size: 1.2em;
+    padding: 11px;
+  }
+  div.cmc-professor-education>table tr th{
+    font-size: 1.2em;
+    padding: 11px;
+    text-align: center;
+  }
+}
+
+
 img.cmc-people-section-img {
   /* for professor */
   padding: 24px;
