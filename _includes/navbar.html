@@ -3,15 +3,8 @@
   DESCRIPTION: 상단의 네비게이션 바를 정리한 것입니다.
 -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-
-    <!-- 가운데 CMCLab 로고가 큼지막하게 박힌다/ 모바일에서는 숨겨짐 -->
-    <div id="cmc-nav-banner" class="container-fluid hidden-xs">
-      <a href="{{ site.url }}/">
-        <img src="{{ site.url }}/img/essentials/SKUCMCLab_Logo.png" alt="SKU CMCLab" class="img-responsive center-block" style="height: 100%;"/>
-      </a>
-    </div>
+<nav class="navbar navbar-default navbar-fixed-top cmc-nav" >
+  <div class="container" >
 
     <!-- 홈페이지의 폭이 좁을 경우 모바일용 메뉴로 바뀐다 -->
     <div class="navbar-header">
@@ -22,11 +15,17 @@
       </button>
 
       <!-- 좌측의 사이트 제목 -->
-      <a class="navbar-brand" href="{{ site.url }}/"><strong>CMCLab</strong>@SKU</a>
+      <!--<a class="navbar-brand" href="{{ site.url }}/"><strong>CMCLab</strong>@SKU</a>-->
+      <div id="cmc-nav-banner" class="container-fluid hidden-xs">
+        <a href="{{ site.url }}/">
+          <img src="{{ site.url }}/img/essentials/SKUCMCLab_Logo.png" alt="SKU CMCLab" class="img-responsive" style="height: 100%; padding:15px"/>
+        </a>
+      </div>
+      
     </div>
 
 
-    <div class="collapse navbar-collapse" id="cmc-homepage-menu-collapse">
+    <div class="collapse navbar-collapse cmc-nav-list" id="cmc-homepage-menu-collapse">
 
       <!-- 우측의 메뉴들/ <li>태그들이 하나의 메뉴 항목이 된다 -->
       <ul class="nav navbar-nav navbar-right">
@@ -36,7 +35,7 @@
           <a href="{{ site.url }}/people" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PEOPLE <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="{{ site.url }}/people">지도교수</a></li>
-            <li><a href="{{ site.url }}/people#cmc-people-researcher">학부생</a></li>
+            <li><a href="{{ site.url }}/people#cmc-people-researcher">연구원</a></li>
             <li><a href="{{ site.url }}/people#cmc-people-alumni">졸업생</a></li>
           </ul>
         </li>
