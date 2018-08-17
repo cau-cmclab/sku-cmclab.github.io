@@ -16,7 +16,7 @@
   /* works on general display(desktop) */
   body {
     /* padding-top is 75 + div#cmc-nav_banner.height */
-    padding-top: 195px;
+    padding-top: 140px;
 
   }
 }
@@ -83,6 +83,11 @@ div#cmc-nav-banner {
   div.cmc-nav-list{
     padding-top: 0px
   }
+
+  img.cmc-index-img{
+    padding-bottom: 8px;
+    width: 100%; 
+  }
 }
 @media (min-width: 768px) {
   
@@ -92,6 +97,13 @@ div#cmc-nav-banner {
     text-align: center;
     background-color: #fafafa;
   }
+
+  div.cmc-section-index {
+    padding: 3px;
+    text-align: center;
+    background-color: #fafafa;
+  }
+
   ul.cmc-paperlist li {
     font-size: 1.2em;
     padding: 8px;
@@ -135,6 +147,12 @@ div#cmc-nav-banner {
   div.cmc-nav-list{
     padding-top: 40px
   }
+
+  img.cmc-index-img{
+    padding-bottom: 12px;
+    width: 100%; 
+  }
+
 }
 
 /* people.html ONLY */
