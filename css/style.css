@@ -39,14 +39,15 @@ div#cmc-nav-banner {
     background-color: #fafafa;
   }
   ul.cmc-paperlist li {
-    font-size: 1em;
-    padding: 4px;
+    font-size: 0.8em;
+    padding: 1px;
   }
   h1.cmc-container-header {
-    font-size: 2.4em;
+    font-size: 2.0em;
   }
+
   p.cmc-container-para {
-    font-size: 1.2em;
+    font-size: 1.0em;
   }
 
   p.cmc-container-project-para {
@@ -93,29 +94,35 @@ div#cmc-nav-banner {
   
   /* works on general display(desktop) */
   div.cmc-section {
-    padding: 72px;
+    padding: 30px;
     text-align: center;
     background-color: #fafafa;
+    width: 90%; 
+
+    margin-left: auto; margin-right: auto;
   }
 
   div.cmc-section-index {
     padding: 3px;
     text-align: center;
     background-color: #fafafa;
+    width: 90%; 
+   
+    margin-left: auto; margin-right: auto;
   }
 
   ul.cmc-paperlist li {
-    font-size: 1.2em;
-    padding: 8px;
+    font-size: 1.1em;
+    padding: 1px;
   }
   h1.cmc-container-header {
-    font-size: 4em;
+    font-size: 3em;
   }
   p.cmc-container-para {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   p.cmc-container-project-para {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   img.cmc-section-img {
     padding: 12px;
@@ -193,12 +200,12 @@ div#cmc-nav-banner {
   }
 
   div.cmc-professor-education>table tr td{
-    font-size: 1em;
-    padding: 4px;
+    font-size: 0.5em;
+    padding: 2px;
   }
   div.cmc-professor-education>table tr th{
-    font-size: 1em;
-    padding: 4px;
+    font-size: 0.5em;
+    padding: 2px;
     text-align: center;
   }
 }
@@ -210,17 +217,17 @@ div#cmc-nav-banner {
     text-align: left;
   }
   div.cmc-professor-education>ul li {
-    font-size: 1.2em;
-    padding: 8px;
+    font-size: 1.1em;
+    padding: 0.8px;
   }
   
   div.cmc-professor-education>table tr td{
-    font-size: 1.2em;
-    padding: 11px;
+    font-size: 1.1em;
+    padding: 0.8px;
   }
   div.cmc-professor-education>table tr th{
-    font-size: 1.2em;
-    padding: 11px;
+    font-size: 1.1em;
+    padding: 0.8px;
     text-align: center;
   }
 }
